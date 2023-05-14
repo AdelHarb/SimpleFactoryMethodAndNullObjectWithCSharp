@@ -3,5 +3,6 @@ namespace Factory.Core;
 public enum PaymentType
 {
     CreditCard,
-    DebitCard
+    DebitCard,
+    ZeroPayment
 }

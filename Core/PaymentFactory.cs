@@ -11,7 +11,7 @@ namespace Factory.Core.Payment
                 case PaymentType.DebitCard:
                     return new DebitCard();
                 default:
-                    throw new System.NotImplementedException();
+                    return new ZeroPayment();
             }
         }
     }
